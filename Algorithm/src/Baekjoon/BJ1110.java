@@ -18,9 +18,7 @@ public class BJ1110 {
 		Scanner scanner = new Scanner(System.in);
 
 		int firstNum = scanner.nextInt();
-		int newNum = 0;
 		int checkNum = firstNum;
-
 		int count = 0;
 
 		while (true) {
@@ -28,11 +26,10 @@ public class BJ1110 {
 
 			int a = checkNum / 10;
 			int b = checkNum % 10;
-
 			int c = (a + b) % 10;
 
-			newNum = (10 * b) + c;
-			
+			int newNum = (10 * b) + c;
+
 			checkNum = newNum;
 
 			if (firstNum == newNum)
@@ -42,7 +39,5 @@ public class BJ1110 {
 		System.out.println(count);
 
 		scanner.close();
-
 	}
-
 }
