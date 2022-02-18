@@ -24,7 +24,6 @@ public class BJ2577 {
 			resultNum[i] = String.valueOf(result.charAt(i));
 		}
 
-		// char[] number = new char[9];
 		int[] numCount = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < n; j++) {
