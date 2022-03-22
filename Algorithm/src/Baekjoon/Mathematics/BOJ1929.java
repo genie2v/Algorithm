@@ -1,8 +1,8 @@
-package Baekjoon;
+package Baekjoon.Mathematics;
 
 import java.util.Scanner;
 
-public class BJ1929 {
+public class BOJ1929 {
 //	M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.
 //	에라토스테네스의 체
 
@@ -21,7 +21,7 @@ public class BJ1929 {
 	public static void getPrime(int m, int n) {
 		boolean[] primeCheck = new boolean[n + 1];
 
-		// true 소수아님, false 소
+		// true 소수아님, false 소수 
 		primeCheck[0] = primeCheck[1] = true;
 		
 		for (int i = 2; i < Math.sqrt(primeCheck.length); i++) {

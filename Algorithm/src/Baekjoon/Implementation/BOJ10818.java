@@ -1,10 +1,10 @@
-package Baekjoon;
+package Baekjoon.Implementation;
 
 import java.util.Scanner;
 
-public class BJ10818 {
-
+public class BOJ10818 {
 //	N개의 정수가 주어진다. 이때, 최솟값과 최댓값을 구하는 프로그램을 작성하시오.
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
