@@ -23,6 +23,7 @@ public class BJ1929 {
 
 		// true 소수아님, false 소
 		primeCheck[0] = primeCheck[1] = true;
+		
 		for (int i = 2; i < Math.sqrt(primeCheck.length); i++) {
 			if (primeCheck[i])
 				continue;
