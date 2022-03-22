@@ -21,7 +21,7 @@ public class BJ1929 {
 	public static void getPrime(int m, int n) {
 		boolean[] primeCheck = new boolean[n + 1];
 
-		// true 소수아님, false 소수 
+		// true 소수아님, false 소
 		primeCheck[0] = primeCheck[1] = true;
 		for (int i = 2; i < Math.sqrt(primeCheck.length); i++) {
 			if (primeCheck[i])
