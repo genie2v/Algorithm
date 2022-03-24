@@ -9,8 +9,16 @@ public class 완주하지못한선수 {
 		// TODO Auto-generated method stub
 		String[] participant = { "leo", "kiki", "eden" };
 		String[] completion = { "eden", "kiki" };
+		
+		String[] participant2 = { "marina", "josipa", "nikola", "vinko", "filipa" };
+		String[] completion2 = { "josipa", "filipa", "marina", "nikola" };
+		
+		String[] participant3 = { "mislav", "stanko", "mislav", "ana" };
+		String[] completion3 = { "stanko", "ana", "mislav" };
 
 		System.out.println(solution(participant, completion));
+		System.out.println(solution(participant2, completion2));
+		System.out.println(solution(participant3, completion3));
 	}
 
 	public static String solution(String[] participant, String[] completion) {
